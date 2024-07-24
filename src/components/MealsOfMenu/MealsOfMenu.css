@@ -1,0 +1,54 @@
+
+.link {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.meal-item {
+    background-color: #ffffff; 
+    border: 1px solid #dddddd; 
+    border-radius: 12px;
+    overflow: hidden; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin: 10px; 
+    width: 300px; 
+    height: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    position: relative; 
+}
+
+.meal-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);  
+}
+
+.meal-item figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.meal-item figure img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+}
+
+.title {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    font-size: 18px; 
+    font-weight: bold; 
+    box-sizing: border-box; 
+}
