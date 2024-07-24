@@ -1,12 +1,8 @@
-/* Colores */
 :root {
     --primary-color:#d9534f;
   }
   
-
-  
-  /* Contenedor Principal */
-  .detail-container {
+    .detail-container {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
@@ -45,7 +41,6 @@
     border-radius: var(--border-radius);
   }
   
-  /* Contenedor de Opciones */
   .options-container {
     max-width: 800px;
     margin: 20px auto;
